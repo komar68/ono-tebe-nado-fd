@@ -19,8 +19,7 @@ main {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   column-gap: 38px;
-  min-height: 293px;
-  padding: 0 50px;
+  padding: 90px 50px;
 }
 
 .header a {
@@ -120,7 +119,7 @@ main {
   font-size: 22px;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding: 12px 32px 11px 31px;
   text-transform: uppercase;
 }
@@ -272,7 +271,6 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 180px 50px 82px;
-  min-height: 180px;
 }
 
 .footer a {
